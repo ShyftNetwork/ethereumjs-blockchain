@@ -2,9 +2,9 @@
 
 const test = require('tape')
 const Blockchain = require('..')
-const Block = require('ethereumjs-block')
+const Block = require('@shyftnetwork/shyft_ethereumjs-block')
 const async = require('async')
-const ethUtil = require('ethereumjs-util')
+const ethUtil = require('@shyftnetwork/shyft_ethereumjs-util')
 const levelup = require('levelup')
 const memdown = require('memdown')
 const testData = require('./testdata.json')

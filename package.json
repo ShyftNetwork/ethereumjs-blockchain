@@ -1,5 +1,5 @@
 {
-  "name": "ethereumjs-blockchain",
+  "name": "@shyftnetwork/shyft_ethereumjs-blockchain",
   "version": "3.1.0",
   "description": "A module to store and interact with blocks",
   "main": "index.js",
@@ -11,23 +11,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereumjs/ethereumjs-blockchain.git"
+    "url": "git+https://github.com/shyftnetwork/shyft_ethereumjs-blockchain.git"
   },
   "keywords": [
     "ethereum",
     "blockchain"
   ],
-  "author": "mjbecze <mjbecze@gmail.com>",
+  "author": "shyftnetwork",
+  "contributors": [
+    "mjbecze <mjbecze@gmail.com>"
+  ],
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/ethereumjs/ethereumjs-blockchain/issues"
+    "url": "https://github.com/@shyftnetwork/shyft_ethereumjs-blockchain/issues"
   },
-  "homepage": "https://github.com/ethereumjs/ethereumjs-blockchain#readme",
+  "homepage": "https://github.com/@shyftnetwork/shyft_ethereumjs-blockchain#readme",
   "dependencies": {
     "async": "^2.1.2",
     "ethashjs": "~0.0.7",
-    "ethereumjs-block": "~1.7.0",
-    "ethereumjs-util": "~5.2.0",
+    "@shyftnetwork/shyft_ethereumjs-block": "~1.7.0",
+    "@shyftnetwork/shyft_ethereumjs-util": "~5.2.0",
     "flow-stoplight": "^1.0.0",
     "levelup": "^1.3.0",
     "memdown": "^1.1.0",
